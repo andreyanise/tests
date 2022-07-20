@@ -1,11 +1,7 @@
 version: "2.4"
 services:
   web:
-    build: .
-    depends_on:
-      - db
+    build:
       - redis
   redis:
     image: redis
-  db:
-    image: postgres

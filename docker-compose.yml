@@ -1,7 +1,6 @@
 version: "2.4"
 services:
   web:
-    build:
-      - redis
+    build: .
   redis:
     image: redis

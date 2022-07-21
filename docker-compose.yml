@@ -2,7 +2,5 @@ version: "2.4"
 services:
   redis:
     image: redis:3.0.2
-  ruby:
-    image: ruby
-  alpine:
-    image: alpine
+  nginx:
+    image: nginx

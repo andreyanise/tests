@@ -3,4 +3,4 @@ services:
   redis:
     image: redis:3.0.3
   nginx:
-    image: nginx
+    image: nginx:1.23

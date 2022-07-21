@@ -3,4 +3,4 @@ services:
   redis:
     image: redis
   ruby:
-    image: ruby:3.0.1
+    image: ruby

@@ -1,4 +1,6 @@
 version: "2.4"
 services:
   redis:
-    image: redis
+    image: redis:3.0.1
+  ruby:
+    image: ruby:3.0.1

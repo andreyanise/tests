@@ -4,6 +4,3 @@ services:
     image: redis:3.0.2
   nginx:
     image: nginx
-    environment: 
-     - NGINX_HOST=foo.com
-     - NGINX_PORT=8081

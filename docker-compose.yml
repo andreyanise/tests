@@ -4,5 +4,5 @@ services:
     image: redis:3.0.2
     container_name: redis
   nginx:
-    image: nginx:1.23.0
+    image: nginx:1.22.0
     container_name: nginx
